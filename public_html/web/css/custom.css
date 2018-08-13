@@ -1,0 +1,579 @@
+/*FONTS TRILCE OPEN*/
+@font-face {font-family: 'CaeciliaLTPro-45Light';src: url('webfonts/33FA0F_0_0.eot');src: url('webfonts/33FA0F_0_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_0_0.woff2') format('woff2'),url('webfonts/33FA0F_0_0.woff') format('woff'),url('webfonts/33FA0F_0_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-55Roman';src: url('webfonts/33FA0F_1_0.eot');src: url('webfonts/33FA0F_1_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_1_0.woff2') format('woff2'),url('webfonts/33FA0F_1_0.woff') format('woff'),url('webfonts/33FA0F_1_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-46LightItalic';src: url('webfonts/33FA0F_2_0.eot');src: url('webfonts/33FA0F_2_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_2_0.woff2') format('woff2'),url('webfonts/33FA0F_2_0.woff') format('woff'),url('webfonts/33FA0F_2_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-56Italic';src: url('webfonts/33FA0F_3_0.eot');src: url('webfonts/33FA0F_3_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_3_0.woff2') format('woff2'),url('webfonts/33FA0F_3_0.woff') format('woff'),url('webfonts/33FA0F_3_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-75Bold';src: url('webfonts/33FA0F_4_0.eot');src: url('webfonts/33FA0F_4_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_4_0.woff2') format('woff2'),url('webfonts/33FA0F_4_0.woff') format('woff'),url('webfonts/33FA0F_4_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-76BoldItalic';src: url('webfonts/33FA0F_5_0.eot');src: url('webfonts/33FA0F_5_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_5_0.woff2') format('woff2'),url('webfonts/33FA0F_5_0.woff') format('woff'),url('webfonts/33FA0F_5_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-85Heavy';src: url('webfonts/33FA0F_6_0.eot');src: url('webfonts/33FA0F_6_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_6_0.woff2') format('woff2'),url('webfonts/33FA0F_6_0.woff') format('woff'),url('webfonts/33FA0F_6_0.ttf') format('truetype');}
+@font-face {font-family: 'CaeciliaLTPro-86HeavyItalic';src: url('webfonts/33FA0F_7_0.eot');src: url('webfonts/33FA0F_7_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_7_0.woff2') format('woff2'),url('webfonts/33FA0F_7_0.woff') format('woff'),url('webfonts/33FA0F_7_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-BdIt';src: url('webfonts/33FA0F_8_0.eot');src: url('webfonts/33FA0F_8_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_8_0.woff2') format('woff2'),url('webfonts/33FA0F_8_0.woff') format('woff'),url('webfonts/33FA0F_8_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-Lt';src: url('webfonts/33FA0F_9_0.eot');src: url('webfonts/33FA0F_9_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_9_0.woff2') format('woff2'),url('webfonts/33FA0F_9_0.woff') format('woff'),url('webfonts/33FA0F_9_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-LtIt';src: url('webfonts/33FA0F_A_0.eot');src: url('webfonts/33FA0F_A_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_A_0.woff2') format('woff2'),url('webfonts/33FA0F_A_0.woff') format('woff'),url('webfonts/33FA0F_A_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-Md';src: url('webfonts/33FA0F_B_0.eot');src: url('webfonts/33FA0F_B_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_B_0.woff2') format('woff2'),url('webfonts/33FA0F_B_0.woff') format('woff'),url('webfonts/33FA0F_B_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-Bd';src: url('webfonts/33FA0F_C_0.eot');src: url('webfonts/33FA0F_C_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_C_0.woff2') format('woff2'),url('webfonts/33FA0F_C_0.woff') format('woff'),url('webfonts/33FA0F_C_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-MdIt';src: url('webfonts/33FA0F_D_0.eot');src: url('webfonts/33FA0F_D_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_D_0.woff2') format('woff2'),url('webfonts/33FA0F_D_0.woff') format('woff'),url('webfonts/33FA0F_D_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-Rg';src: url('webfonts/33FA0F_E_0.eot');src: url('webfonts/33FA0F_E_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_E_0.woff2') format('woff2'),url('webfonts/33FA0F_E_0.woff') format('woff'),url('webfonts/33FA0F_E_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-RgIt';src: url('webfonts/33FA0F_F_0.eot');src: url('webfonts/33FA0F_F_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_F_0.woff2') format('woff2'),url('webfonts/33FA0F_F_0.woff') format('woff'),url('webfonts/33FA0F_F_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-SmBdIt';src: url('webfonts/33FA0F_10_0.eot');src: url('webfonts/33FA0F_10_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_10_0.woff2') format('woff2'),url('webfonts/33FA0F_10_0.woff') format('woff'),url('webfonts/33FA0F_10_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-SmBd';src: url('webfonts/33FA0F_11_0.eot');src: url('webfonts/33FA0F_11_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_11_0.woff2') format('woff2'),url('webfonts/33FA0F_11_0.woff') format('woff'),url('webfonts/33FA0F_11_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-Th';src: url('webfonts/33FA0F_12_0.eot');src: url('webfonts/33FA0F_12_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_12_0.woff2') format('woff2'),url('webfonts/33FA0F_12_0.woff') format('woff'),url('webfonts/33FA0F_12_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-ThIt';src: url('webfonts/33FA0F_13_0.eot');src: url('webfonts/33FA0F_13_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_13_0.woff2') format('woff2'),url('webfonts/33FA0F_13_0.woff') format('woff'),url('webfonts/33FA0F_13_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-UltLtIt';src: url('webfonts/33FA0F_14_0.eot');src: url('webfonts/33FA0F_14_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_14_0.woff2') format('woff2'),url('webfonts/33FA0F_14_0.woff') format('woff'),url('webfonts/33FA0F_14_0.ttf') format('truetype');}
+@font-face {font-family: 'Geogrotesque-UltLt';src: url('webfonts/33FA0F_15_0.eot');src: url('webfonts/33FA0F_15_0d41d.eot?#iefix') format('embedded-opentype'),url('webfonts/33FA0F_15_0.woff2') format('woff2'),url('webfonts/33FA0F_15_0.woff') format('woff'),url('webfonts/33FA0F_15_0.ttf') format('truetype');}
+/*FONTS TRILCE CLOSE*/
+/* Add here all your CSS customizations */
+
+div#revolutionSlider_forcefullwidth{
+    position: fixed !important;
+}
+
+div.slider_maya_01{
+    z-index: 5 !important;
+    font-size: 35px !important;
+    background-color: #fff;
+    padding: 65px 35px 65px 35px;
+    line-height: 33px !important;
+    color: #333 !important;
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div.slider_maya_02{
+    z-index: 5 !important;
+    font-size: 35px !important;
+    background-color: #333;
+    padding: 45px 35px 45px 35px;
+    line-height: 33px !important;
+    color: #fff !important;
+    width: 250px;
+    height: 150px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+div.btn_slider{
+    font-size: 1.2em;
+}
+
+div.triangulo_blanco{
+    z-index: 5; width: 0; height: 0; border-top: 100px solid #fff; border-right: 80px solid transparent;
+}
+
+div.triangulo_negro{
+    z-index: 5; width: 0; height: 0; border-top: 100px solid #333; border-left: 100px solid transparent;
+}
+
+@media (max-width: 1199px){
+    div.slider_maya_01{
+        height: 150px;
+        padding: 25px 35px 25px 35px;
+        font-size: 30px !important;
+        border-radius: 0 !important;
+    }
+
+    div.slider_maya_02{
+
+        display: none !important;
+    }
+    div.triangulo_blanco{
+        display: none !important;
+    }
+    div.triangulo_negro{
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px){
+    img.img_design{
+        width: 400px !important;
+        height: 400px !important;
+        position: relative;
+        bottom: -50px;
+    }
+    div#revolutionSlider{
+        height: 100vh !important;
+    }
+    div.slider_maya_01{
+        margin-top: 70px !important;
+    }
+}
+
+@media (max-width: 800px){
+    div.slider_maya_01{
+        font-size: 20px !important;
+        line-height: 20px !important;
+        height: 100px !important;
+        width: 160px !important;
+        margin-right: 60px !important;
+    }
+}
+
+@media (max-width: 700px){
+    img.img_design{
+        bottom: -140px;
+    }
+}
+
+@media (max-width: 584px){
+    div.btn_slider{
+        border: 1px solid rgb(255, 255, 255) !important;
+    }
+}
+@media (max-width: 540px){
+    div.slider_maya_01{
+        margin-right: 20px !important;
+        margin-top: 100px !important;
+        font-size: 15px !important;
+        width: 120px !important;
+    }
+    div.btn_slider{
+        margin-top: 50px !important;
+        font-size: 16px !important;
+        margin-right: -60px !important;
+        padding: 15px !important;
+    }
+    img.img_design{
+        width: 350px !important;
+        height: 350px !important;
+        bottom: -200px;
+    }
+}
+
+@media (max-width: 480px){
+
+}
+
+div.flotante{
+    position: relative;
+    left: 103px;
+    top: 104px;
+    background-repeat: no-repeat;
+    animation: animated 4s linear infinite;
+    -webkit-animation: animated01 4s linear infinite;
+    width: 1078px;
+    max-width: 90%;
+    height: 422px;
+}
+
+@keyframes animated01 {
+    0%   {background-position: 100px 120px}
+    50%  {background-position: 100px 100px;}
+    100% {background-position: 100px 120px;}
+}
+
+@-webkit-keyframes animated01 {
+    0%   {background-position: 100px 120px;}
+    50%  {background-position: 100px 100px;}
+    100% {background-position: 100px 120px;}
+
+}
+
+div.a_categories{
+    z-index: 999;
+    position: relative;
+    flex-basis: 0;
+    flex-grow: 1;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: Geogrotesque-Rg;
+    font-size: 14px;
+    margin-top: 0;
+    text-align: center;
+
+    -webkit-transition : border 500ms ease-out;
+    -moz-transition : border 500ms ease-out;
+    -o-transition : border 500ms ease-out;
+    transition : border 500ms ease-out;
+}
+
+div.img_01{
+    background-image: url("../img/01.jpg");
+    width: 100%;
+    background-size: 100%;
+    height: 100%;
+    z-index:999;
+    /*opacity: 0.2;*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+div.img_02{
+    background: url("../img/02.jpg");
+    width: 100%;
+    background-size: 100%;
+    height: 100%;
+    /*opacity: 0.2;*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+div.img_03{
+    background: url("../img/03.jpg");
+    width: 100%;
+    background-size: 100%;
+    height: 100%;
+    /*opacity: 0.2;*/
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.a_cat_01{
+    opacity: 1 !important;
+}
+
+span.txt_categoria{
+    /*position: relative;
+    top: 90%;*/
+    position: fixed;
+    z-index: -1;
+
+}
+
+span.txt_categoria p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: Geogrotesque-Rg;
+    border: 1px solid #FFF;
+    padding: 15px 0 15px 0;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+span.txt_categoria{
+    top: 40%;
+}
+
+span.txt_categoria span{
+    font-size: 50px;
+}
+
+div.info_cat_01{
+    position: relative;
+    top: 110%;
+}
+
+div.info_cat_02{
+    position: absolute;
+}
+
+div.info_cat_03{
+    position: absolute;
+}
+
+div.img_serv_01{
+    position: fixed;
+    bottom: 0px;
+    /*width: 33.333%;*/
+    z-index: 1;
+}
+
+.img_service{
+    display: none !important;
+}
+
+div.img_serv_01 span img{
+    width: 18%;
+}
+
+div.img_serv_02{
+    position: fixed;
+    bottom: 0px;
+    width: 33.333%;
+    z-index: 1;
+}
+
+div.img_serv_02 span img{
+    width: 35%;
+}
+
+div.img_serv_03{
+    position: fixed;
+    bottom: 0px;
+    width: 33.333%;
+    z-index: 1;
+}
+
+div.img_serv_03 span img{
+    width: 35%;
+}
+
+div.portfolio_maya{
+    height: 100vh !important;
+}
+
+div.title_01{
+    position: relative;
+}
+
+img.title_maya_01{
+    position: absolute;
+    width: 30%;
+    z-index: 9;
+    bottom: -20px;
+    left: 50%;
+    ransform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+img.title_maya_02{
+    position: absolute;
+    width: 30%;
+    z-index: 9;
+    bottom: -20px;
+    left: 50%;
+    ransform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+img.title_maya_03{
+    position: absolute;
+    width: 30%;
+    z-index: 9;
+    bottom: -20px;
+    left: 50%;
+    ransform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+h2.title_service_maya{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+    color: #fff;
+    font-size: 35px;
+}
+
+.img_maya{
+    display: none;
+}
+
+#header .header-logo img{
+    width: 100px;
+}
+
+@media (max-width: 991px){
+    img.title_maya_01{
+        display: none;
+    }
+    img.title_maya_02{
+        display: none;
+    }
+    img.title_maya_03{
+        display: none;
+    }
+    h2.title_service_maya{
+        top: 45%;
+    }
+}
+
+@media (max-width: 767px){
+    img.img_fondo_maya{
+        height: 250px;
+    }
+    div.portfolio_maya{
+        height: inherit !important;
+    }
+    #header .header-logo img{
+        width: 60px;
+    }
+}
+
+@media (max-width: 530px){
+    h2.title_service_maya{
+        top: 40%;
+        padding-bottom: 0;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .thumb-info.thumb-info-centered-info .thumb-info-title{
+        top: 65%;
+    }
+    #header .header-logo img {
+        width: 50px;
+    }
+}
+
+/*loader open*/
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #00abf0;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+    z-index: 1001;
+}
+
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #ffffff;
+
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #f4633a;
+
+    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1000;
+    -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(0);  /* IE 9 */
+    transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(-100%);  /* IE 9 */
+    transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateX(100%);  /* IE 9 */
+    transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.loaded #loader-wrapper {
+    visibility: hidden;
+
+    -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: translateY(-100%);  /* IE 9 */
+    transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
+}
+/* loader close */
+
+#header .header-btn-collapse-nav{
+    background: transparent !important;
+    font-size: 20px;
+}
+
+.portfolio-title .portfolio-nav-all a{
+    font-size: 30px;
+}
+
+.portfolio-title .portfolio-nav a{
+    font-size: 30px;
+}
+
+.col-lg-10.text-center h2{
+    font-size: 30px;
+}
